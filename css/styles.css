@@ -1,0 +1,66 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    /* background: #2B4D82; */
+    
+}
+
+.hero{
+    background: #2B4D82;
+    background-image: linear-gradient(135deg, #2B4D82 0%, #182848 100%);
+    min-height: 100vh; /*Es para que el hero ocupe el 100% de la pantalla*/
+    display: flex;
+    align-items: center; /*  <-- Centramos el texto verticalmente */
+    flex-wrap: wrap;
+}
+
+.hero .texto{
+    
+    width: 100%;
+    /* color: rgba(0,0,0,0.1); */
+    text-align: center;
+    text-transform: uppercase; /*  <-- convertimos a mayúsculas */
+    font-size: 300px;
+    font-weight: bold;
+    
+    /* background: red; */
+    /* background: #000 ; */ 
+    /* background-image: #000 url('./img/img1.jpg');  */
+
+    color: transparent;
+    background-image: url('../img/img1.jpg');
+    background-size: cover;
+    background-position-y: center;
+
+    background-clip: text; /*  <-- Pone la imagen dentro del texto, a esto hay que acompañarlo con color transparent */
+}
+.hero .texto2{
+    
+    width: 100%;
+    /* color: rgba(0,0,0,0.1); */
+    text-align: center;
+    text-transform: uppercase; /*  <-- convertimos a mayúsculas */
+    font-size: 300px;
+    font-weight: bold;
+    
+    /* background: red; */
+    /* background: #000 ; */ 
+    /* background-image: #000 url('./img/img1.jpg');  */
+
+    color: transparent;
+    background-image: url('../img/img2.jpg');
+    background-size: cover;
+    background-position-y: center;
+
+    background-clip: text; /*  <-- Pone la imagen dentro del texto, a esto hay que acompañarlo con color transparent */
+}
+
+
+
+
